@@ -1,0 +1,33 @@
+body{
+    background-color: #3a86ff;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+h1{
+    text-align: center;
+}
+.pizza{
+    /*BoxModel*/border: 5px solid #3a86ff;
+    padding: 1em;
+    margin: 1em;
+    margin-bottom: 0.5em;
+    border-radius: 0.5em;
+    flex: 1;
+}
+.large_pizza{
+    background-color: #8338ec;
+}
+.medium_pizza{
+    background-color: #ff006e;
+}
+.small_pizza{
+    background-color: #fb5607;
+}
+.contact_us{
+    background-color: #ffbe0b;
+}
+
+@media(min-width: 768px){
+    .pizzas{
+        display:flex;
+    }
+}
